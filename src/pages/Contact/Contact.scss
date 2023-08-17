@@ -16,10 +16,10 @@
 .contact-box-form {
     max-width: 56.875rem;
     width: 100%;
-    margin-right: 20px;
+    margin-right: 1.25rem;
 
     @media screen and (max-width: 1023.98px) {
-        margin-bottom: 30px;
+        margin-bottom: 1.875rem;
         margin-right: 0;
     }
 
@@ -28,12 +28,12 @@
     }
 
     &__subtitle {
-        margin-bottom: 32px;
+        margin-bottom: 2rem;
     }
 }
 
 .contact-box-info {
-    max-width: 320px;
+    max-width: 20rem;
     width: 100%;
 
     @media screen and (max-width: 1023.98px) {
@@ -68,7 +68,7 @@
         &.work {
 
             & .contact-box-info__item {
-                margin-left: 38px;
+                margin-left: 2.375rem;
             }
         }
     }
