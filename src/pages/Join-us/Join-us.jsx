@@ -16,7 +16,7 @@ function JoinUs() {
             <p>Станьте і ви частиною неперевершеного проекту, що забезпечує
             екологічне, комфортне та сучасне життя!</p>
           </div>
-          <Button id={"contact"} cls={"join-us__btn _btn-black"} text={"Приєднатися до нас"} />
+          <Button link={"#contact"} cls={"join-us__btn _btn-black"} text={"Приєднатися до нас"} />
         </div>
       </div>
     </section>

@@ -1,9 +1,9 @@
 import React from "react";
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 
-function Button({ cls, text, id}) {
+function Button({ cls, text, link}) {
     return(
-        <AnchorLink offset='68' href={`#${id}`} className={ cls }>{ text }</AnchorLink>
+        <AnchorLink offset='68' href={`${link}`} className={ cls }>{ text }</AnchorLink>
     )
 }
 

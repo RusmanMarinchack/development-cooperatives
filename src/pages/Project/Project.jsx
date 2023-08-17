@@ -34,7 +34,7 @@ function Project() {
                                 <div className="project-text__text">
                                     <p>Компанія "Розбудова кооперативів" успішно реалізувала проєкт "Зелений кооператив", що забезпечив створення екологічної спільноти. Резиденти кооперативу заощаджують на комунальних послугах, активно взаємодіють між собою та сприяють збереженню довкілля. Цей проєкт став прикладом сталого розвитку та популяризації екологічних ініціатив у будівництві.</p>
                                 </div>
-                                <Button id={"contact"} cls={"project-text__btn _btn-yellow"} text={"Дізнатися більше"}/>
+                                <Button link={"#contact"} cls={"project-text__btn _btn-yellow"} text={"Дізнатися більше"}/>
                             </div>
                             <div className="project__box-img">
                                 <img src={GalleryOne} alt="Project" />
@@ -52,7 +52,7 @@ function Project() {
                                 <div className="project-text__text">
                                     <p>Компанія "Розбудова кооперативів" успішно реалізувала проєкт "Зелений кооператив", що забезпечив створення екологічної спільноти. Резиденти кооперативу заощаджують на комунальних послугах, активно взаємодіють між собою та сприяють збереженню довкілля. Цей проєкт став прикладом сталого розвитку та популяризації екологічних ініціатив у будівництві.</p>
                                 </div>
-                                <Button id={"contact"} cls={"project-text__btn _btn-yellow"} text={"Дізнатися більше"}/>
+                                <Button link={"#contact"} cls={"project-text__btn _btn-yellow"} text={"Дізнатися більше"}/>
                             </div>
                             <div className="project__box-img">
                                 <img src={GalleryOne} alt="Project" />
@@ -70,7 +70,7 @@ function Project() {
                                 <div className="project-text__text">
                                     <p>Компанія "Розбудова кооперативів" успішно реалізувала проєкт "Зелений кооператив", що забезпечив створення екологічної спільноти. Резиденти кооперативу заощаджують на комунальних послугах, активно взаємодіють між собою та сприяють збереженню довкілля. Цей проєкт став прикладом сталого розвитку та популяризації екологічних ініціатив у будівництві.</p>
                                 </div>
-                                <Button id={"contact"} cls={"project-text__btn _btn-yellow"} text={"Дізнатися більше"}/>
+                                <Button link={"#contact"} cls={"project-text__btn _btn-yellow"} text={"Дізнатися більше"}/>
                             </div>
                             <div className="project__box-img">
                                 <img src={GalleryOne} alt="Project" />
@@ -88,7 +88,7 @@ function Project() {
                                 <div className="project-text__text">
                                     <p>Компанія "Розбудова кооперативів" успішно реалізувала проєкт "Зелений кооператив", що забезпечив створення екологічної спільноти. Резиденти кооперативу заощаджують на комунальних послугах, активно взаємодіють між собою та сприяють збереженню довкілля. Цей проєкт став прикладом сталого розвитку та популяризації екологічних ініціатив у будівництві.</p>
                                 </div>
-                                <Button id={"contact"} cls={"project-text__btn _btn-yellow"} text={"Дізнатися більше"}/>
+                                <Button link={"#contact"} cls={"project-text__btn _btn-yellow"} text={"Дізнатися більше"}/>
                             </div>
                             <div className="project__box-img">
                                 <img src={GalleryOne} alt="Project" />
@@ -106,7 +106,7 @@ function Project() {
                                 <div className="project-text__text">
                                     <p>Компанія "Розбудова кооперативів" успішно реалізувала проєкт "Зелений кооператив", що забезпечив створення екологічної спільноти. Резиденти кооперативу заощаджують на комунальних послугах, активно взаємодіють між собою та сприяють збереженню довкілля. Цей проєкт став прикладом сталого розвитку та популяризації екологічних ініціатив у будівництві.</p>
                                 </div>
-                                <Button id={"contact"} cls={"project-text__btn _btn-yellow"} text={"Дізнатися більше"}/>
+                                <Button link={"#contact"} cls={"project-text__btn _btn-yellow"} text={"Дізнатися більше"}/>
                             </div>
                             <div className="project__box-img">
                                 <img src={GalleryOne} alt="Project" />
