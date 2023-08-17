@@ -1,4 +1,6 @@
 import React from "react";
+import { animated, useSpring } from '@react-spring/web'
+import { useInView } from 'react-intersection-observer';
 
 // Components
 import Video from "../../components/Video/Video";
@@ -17,6 +19,14 @@ import Create from "../../assets/images/svg/create.svg";
 import Logistics from "../../assets/images/svg/logistics.svg";
 
 function AboutUs () {
+  const [ref, inView] = useInView({
+    triggerOnce: true,
+  });
+
+  const styles = useSpring({
+    opacity: inView ? 1 : 0,
+    transform: inView ? 'translateY(0)' : 'translateY(50px)',
+  });
 
   return (
     <section className="about-us" id="about-us">
@@ -24,9 +34,9 @@ function AboutUs () {
         <div className="about-us__wrapper">
           <div className="about-us__box-text about-us-text">
             <div className="about-us-text__content">
-              <h2 className="about-us-text__title _title-2">
+              <animated.h2 ref={ref} style={styles} className="about-us-text__title _title-2">
                 Чому варто бути з нами?
-              </h2>
+              </animated.h2>
               <div className="about-us-text__text">
                 <p>
                   Ми - злагоджена команда, що поєднує постачальників
