@@ -1,0 +1,28 @@
+.footer {
+    background: #1F1800;
+
+    &__container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 3rem 0.9375rem;
+
+        @media screen and (max-width: 1023.98px) {
+            flex-direction: column;
+        }
+    }
+
+    & .logo {
+
+        @media screen and (max-width: 1023.98px) {
+            margin-bottom: 30px;
+        }
+    }
+
+    & .nav {
+
+        &__link {
+            color: var(--while);
+        }
+    }
+}

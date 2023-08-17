@@ -1,0 +1,58 @@
+.home {
+    min-height: calc((100vh - 1vw) - 5.1rem);
+    background: url('../../assets/images/banner.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    &__container {
+        padding-top: 6.971678vh; /* 96px/1377 */
+
+        @media screen and (max-width: 1023.98px) {
+            padding: 6.971678vh 0.9375rem;
+        }
+    }
+
+    &__wrapper {
+        max-width: 40.625rem;
+        padding: 2.5rem 3.5rem;
+
+        @media screen and (max-width: 1023.98px) {
+            max-width: 100%;
+            padding: 0;
+        }
+
+        @media screen and (max-width: 575.98px) {
+            text-align: center;
+        }
+    }
+
+    &__inner {
+        @media screen and (max-width: 1023.98px) {
+            max-width: 100%;
+            padding: 0.625rem;
+            background: rgba(112, 112, 112, 0.5);
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+    }
+
+    &__title {
+        margin-bottom: 2rem;
+    }
+
+    &__subtitle {
+        
+
+        & p {
+            font-size: 1.5rem;
+            padding: 0;
+            margin-bottom: 32px;
+            color: #fff;
+
+            @media screen and (max-width: 1023.98px) {
+                font-size: 1.125rem;
+                margin: 10px 0;
+            }
+        }
+    }
+}

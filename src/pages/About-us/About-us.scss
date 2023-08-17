@@ -1,0 +1,118 @@
+.about-us {
+    background: rgba(244, 244, 244, 1);
+    overflow: hidden;
+
+    &__container {
+        position: relative;
+        
+    }
+
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 80px;
+
+        @media screen and (max-width: 1023.98px) {
+            flex-direction: column;
+            margin-bottom: 30px;
+        }
+
+        & > div {
+            width: 50%;
+
+            @media screen and (max-width: 1023.98px) {
+                width: 100%;
+                margin: 0 auto;
+                margin-bottom: 30px;
+                text-align: center;
+            }
+        }
+    }
+
+    &__box-video {
+        max-width: 34.9375rem;
+    }
+
+    &__decor {
+        max-width: 31.25rem;
+        position: absolute;
+        bottom: -5rem;
+        left: 0;
+
+        & img {
+            width: 100%;
+        }
+    }
+
+}
+
+.about-us-text {
+    max-width: 41.625rem;
+    margin-right: 15px;
+
+
+
+    &__content {
+       
+    }
+
+    &__title {
+        margin: 0 0 2rem 0;
+    }
+
+    &__text {
+
+
+        & p {
+            font-style: normal;
+            font-weight: 400;
+            line-height: 140%; /* 22.4px */
+            letter-spacing: 0.25px;
+            color: var(--silver);
+        }
+    }
+}
+
+.about-us-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    grid-gap: 24px;
+
+    @media screen and (max-width: 767.98px) {
+        grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
+    }
+
+    &__inner {
+        display: flex;
+        align-items: center;
+        margin-bottom: 1rem;
+    }
+
+    &__icon {
+            min-width: 3.5rem;
+            height: 3.5rem;
+            padding: 0.6875rem;
+            border-radius: 1rem;
+            background: linear-gradient(93.46deg, #E7B000 0%, #F1C32D 100%);
+            margin-right: 1rem;
+        
+        & img {
+            width: 100%;  
+        }
+    }
+
+    &__title {
+        margin: 0;
+    }
+
+    &__box-text {
+
+        & p {
+        font-size: 0.875rem;
+        font-weight: 400;
+        line-height: 1.25rem;
+        letter-spacing: 0.25px;
+        margin: 0;
+        }
+    }
+}

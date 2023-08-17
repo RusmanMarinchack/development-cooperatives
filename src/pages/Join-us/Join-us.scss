@@ -1,0 +1,24 @@
+.join-us {
+    background: linear-gradient(0deg, #F7BD01, #F7BD01),
+linear-gradient(93.46deg, #E7B000 0%, #F1C32D 100%);
+
+
+    &__wrapper {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    &__title {
+        margin: 0 0 1.5rem 0;
+    }
+
+    &__subtitle {
+        max-width: 39.25rem;
+        margin: 0 auto;
+        margin-bottom: 32px;
+
+        & p {
+            color: var(--silver);
+        }
+    }
+}
